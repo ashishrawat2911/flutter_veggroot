@@ -11,7 +11,7 @@ class FruitsScreen extends StatefulWidget {
   @override
   _FruitsScreenState createState() => _FruitsScreenState();
 }
-
+\
 class _FruitsScreenState extends State<FruitsScreen>
     with AutomaticKeepAliveClientMixin<FruitsScreen> {
   List<ItemModel> fruitsList;
