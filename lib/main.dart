@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_veggroot/screens/homepage.dart';
+import 'package:flutter_veggroot/src/ui/homepage.dart';
 
 void main() => runApp(MyApp());
 

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_veggroot/model/item_model.dart';
-import 'package:flutter_veggroot/screens/item_screen/item_widget.dart';
+import 'package:flutter_veggroot/src/model/item_model.dart';
+import 'package:flutter_veggroot/src/ui/item_widget.dart';
 import 'package:http/http.dart' as http;
 
 class FruitsScreen extends StatefulWidget {
@@ -11,7 +11,7 @@ class FruitsScreen extends StatefulWidget {
   @override
   _FruitsScreenState createState() => _FruitsScreenState();
 }
-\
+
 class _FruitsScreenState extends State<FruitsScreen>
     with AutomaticKeepAliveClientMixin<FruitsScreen> {
   List<ItemModel> fruitsList;

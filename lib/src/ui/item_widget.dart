@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_veggroot/model/item_model.dart';
+import 'package:flutter_veggroot/src/model/item_model.dart';
 
 class ItemWidget extends StatefulWidget {
   final List<ItemModel> list;

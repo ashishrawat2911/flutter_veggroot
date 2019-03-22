@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_veggroot/screens/fruitsScreen.dart';
-import 'package:flutter_veggroot/screens/vegetable_screen.dart';
+import 'package:flutter_veggroot/src/ui/fruitsScreen.dart';
+import 'package:flutter_veggroot/src/ui/vegetable_screen.dart';
 
 class HomePage extends StatefulWidget {
   @override
